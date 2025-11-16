@@ -257,3 +257,9 @@ body.dark-theme .project-link {
 body.dark-theme .contact a {
     color: #e5e7eb;
 }
+
+body,
+.experience-card,
+.project-card {
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
