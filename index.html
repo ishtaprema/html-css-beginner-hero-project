@@ -6,8 +6,8 @@
     <title>Ilya – Frontend learner</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
 
@@ -35,6 +35,18 @@
         <h1>Ilya 'Ishtaprem' Romanov</h1>
         <p class="lead">Beginner frontend developer & yoga program organizer</p>
         <p>I’m transitioning from engineering and organizing yoga programs into frontend development. I like combining clear structure, aesthetics, and technology to create simple and useful interfaces.</p>
+
+        <div class="greeting">
+            <form id="greeting-form">
+                <label for="name-input">Greetings</label>
+                <input id="name-input" type="text" placeholder="Your name">
+                <button type="submit" id="greeting-icon-button" aria-label="Hello">Hi <i class="fa-regular fa-face-smile"></i>
+                </button>
+            </form>
+            <p id="greeting-message"></p>
+            <p id="hello-counter">Your are: <span id="hi-click-count">0</span>
+            </p>
+        </div>
     </section>
 
      <!-- About -->
